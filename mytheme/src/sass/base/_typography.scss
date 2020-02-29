@@ -1,0 +1,54 @@
+body {
+  font-size: 16px;
+  font-family: $main-font;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 2em;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 2em;
+  font-family: $secondary-font;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1em;
+  font-family: $secondary-font;
+
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 2em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.decoration {
+  &:after {
+    content: " ";
+    position: relative;
+    top: -5px;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+    width: 40px;
+    height: 1px;
+    border-bottom: 2px solid $main-color;
+  }
+}
+.white {
+  color: $light-color;
+}

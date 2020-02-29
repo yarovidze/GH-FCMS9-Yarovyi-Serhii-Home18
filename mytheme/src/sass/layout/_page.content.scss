@@ -1,0 +1,116 @@
+// Page: Content
+// -----------------------------------------------------------------------------
+.what-we-do-section {
+  margin: 50px 0;
+  text-align: center;
+  & .item-what-we-do-section {
+    text-align: left;
+  }
+  & .icon-what-we-do {
+    padding: 20px;
+  }
+  & h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.opinion {
+  background-size: cover;
+  background-attachment: inherit;
+  text-align: center;
+  position: relative;
+  color: $light-color;
+  background-image: url(../img/opinion-back.jpg);
+  padding: 100px 0;
+  & .paragraph-custom {
+    font-size: 20px;
+    margin: 1em 0;
+    & .color-text {
+      color: $main-color;
+    }
+  }
+
+  & .slider-arrow-left {
+    left: 5%;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    &:hover {
+      color: $main-color;
+    }
+  }
+
+  & .slider-arrow-right {
+    right: 5%;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  & img {
+    margin: 0 auto;
+  }
+
+  & .pagination {
+    justify-content: center;
+    margin-top: 30px;
+    list-style: none;
+
+    & .pagination-list {
+      min-width: 15px;
+      min-height: 15px;
+      cursor: pointer;
+      border-radius: 50%;
+      border-width: 2px;
+      border-style: solid;
+      border-color: initial;
+      border-image: initial;
+      margin: 5px;
+      &:hover {
+        background-color: $light-color;
+      }
+    }
+  }
+}
+
+.about-us-section {
+  text-align: center;
+  & img {
+    padding: 20px;
+  }
+}
+
+.map-section {
+  text-align: center;
+}
+
+.portfolio-section {
+
+  & .team-gread {
+    text-align: center;
+    position: relative;
+    &:hover .show-name {
+      display: block;
+      cursor: pointer;
+      padding-top: 75px;
+    }
+
+    & .show-name {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      color: white;
+    }
+  }
+}
+
+.footer-section {
+  text-align: center;
+  min-height: 400px;
+}

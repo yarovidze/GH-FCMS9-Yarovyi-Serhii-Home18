@@ -1,0 +1,48 @@
+.btn-transparent {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-family: $main-font;
+  color: $light-color;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 27px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: $light-color;
+  border-image: initial;
+  &:hover {
+    border-color: $main-color;
+    background-color: $main-color;
+  }
+}
+.btn-main {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-family: $main-font;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: linear-gradient(74deg, #49007c 0%, #e70088 100%);
+  color: $light-color;
+  padding: 10px 40px;
+  outline: none;
+  border-radius: 27px;
+  border-width: 2px;
+  border-image: initial;
+  &:hover {
+    opacity: 0.8;
+  }
+  a {
+    text-decoration: none;
+    color: $light-color;
+    &:hover {
+      text-decoration: none;
+      color: $light-color;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// Page: Header
+// -----------------------------------------------------------------------------
+.sticky-top {
+  height: 50px;
+}
+.nav-item {
+  border: 1px solid transparent;
+  border-radius: 27px;
+  padding: 0 10px;
+  &:hover {
+    border: 1px solid black;
+    border-radius: 27px;
+  }
+}
+
+.header-section {
+  text-align: center;
+  position: relative;
+  margin-top: -50px;
+  & .content-header-section {
+    padding-top: 100px;
+  }
+  & .content-scrool {
+    position: absolute;
+    text-align: center;
+    left: calc(50% - 45px);
+    bottom: 50px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .navbar-collapse {
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
